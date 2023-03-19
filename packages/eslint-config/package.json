@@ -1,6 +1,6 @@
 {
   "name": "@mariaclara/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "ESLint config used by clara",
   "main": "index.js",
   "repository": {

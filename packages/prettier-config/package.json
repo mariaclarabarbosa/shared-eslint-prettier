@@ -1,6 +1,6 @@
 {
   "name": "@mariaclara/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Prettier config used by clara",
   "main": "./prettier-config.json",
   "repository": {
