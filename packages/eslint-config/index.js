@@ -34,6 +34,7 @@ module.exports = {
     "prettier",
   ],
   rules: {
+    'no-undef': "off",
     'no-console': "warn",
     'prettier/prettier': ["error", {
       "semi": true,
@@ -55,6 +56,7 @@ module.exports = {
         img: ['Image'],
       },
     ],
+    'jsx-a11y/anchor-is-valid': "warn",
     'jsx-a11y/aria-props': 'warn',
     'jsx-a11y/aria-proptypes': 'warn',
     'jsx-a11y/aria-unsupported-elements': 'warn',

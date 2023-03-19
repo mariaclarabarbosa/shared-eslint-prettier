@@ -1,0 +1,22 @@
+{
+  "name": "@mariaclara/prettier-config",
+  "version": "1.0.1",
+  "description": "Prettier config used by clara",
+  "main": "./prettier-config.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariaclarabarbosa/shared-eslint-prettier"
+  },
+  "author": "Clara Estrella",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "dependencies": {
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "prettier": ">=1.0.0"
+  }
+}

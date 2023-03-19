@@ -1,44 +1,8 @@
 {
-  "name": "@mariaclara/eslint-config",
+  "name": "@mariaclara/shared-eslint-prettier-config",
+  "description": "Shared ESLint and Prettier config",
   "version": "1.0.0",
-  "description": "ESLint config used by clara",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mariaclarabarbosa/shared-eslint-prettier"
-  },
-  "author": "Clara Estrella",
-  "license": "MIT",
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "dependencies": {
-    "@react-native-community/eslint-config": "^3.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "@typescript-eslint/parser": "^5.55.0",
-    "eslint": "^7.23.0 || ^8.0.0",
-    "eslint-config-prettier": "^8.7.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-import-resolver-typescript": "^3.5.3",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-import-helpers": "^1.3.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.4 || >= 1.0.0"
-  },
-  "peerDependencies": {
-    "eslint": "^7.23.0 || ^8.0.0",
-    "prettier": "^2.8.4 || >= 1.0.0",
-    "typescript": ">=3.3.1"
-  },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
